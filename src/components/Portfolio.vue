@@ -1,13 +1,12 @@
-<head>
-  <link rel="shortcut icon" type="image/png" href="img/software-skills-icon-9.jpg">
-  <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-  <img src="img/Me.png" class="img">
-  <div>
+<template>
+  <body>
+    <img src="../assets/Me.png" class="img">
+    <div>
     <h2>Live Projects</h2>
     <ul>
       <li><a href="https://github.com/damiansf/IgnoreWebadvisorsCookieLimits">Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisor's (uofg's course selection system) maximum cookies error. <a href="https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc">Available in the chrome webstore</a></li>
+      <li><a href="https://github.com/damiansf/XboxGamertagGenerator">Xbox Gamertag Generator</a> A fun React app that xboxify's your gamertag <a href="https://damiansf.github.io/XboxGamertagGenerator/">Available online</a></li>
+      <li><a href="https://github.com/damiansf/HowMuchDoIOweYou">How Much Do I Owe You? (WIP)</a> A React app that allows you to track debts within your friend group. <a href="https://damiansf.github.io/HowMuchDoIOweYou/">Available online</a></li>
     </ul>
     <h2>Other Projects</h2>
     <ul>
@@ -15,11 +14,22 @@
       <li><a href="https://github.com/damiansf/MockBackendTemplate">Mock Backend Template</a> NodeJs mock backend, used for spitting back sample JSON responses to a frontend app</li>
       <li><a href="https://github.com/damiansf/CommuteCostCalculator"> Commute Cost Calculator</a> Small python program to calculate commuting gas costs</li>
       <li><a href="https://github.com/damiansf/ArduinoRadar">Arduino Radar</a> Software for a arduino radar system</li>
-      <li><a href="https://github.com/damiansf/converter">Converter</a> Webapp for converting various values. For example, kg to g</li>
       <li><a href="https://github.com/damiansf/spellmyname">Spell My Name</a> Fun little game to see if you can spell my name</li>
       <li><a href="https://github.com/damiansf/LunchPicker">Lunch Picker</a> Randomly selects a place to eat lunch based off data in a JSON file</li>
     </ul>
   </div>
-</body>
-<footer>
-</footer>
+  </body>
+</template>
+
+<script>
+export default {
+  name: 'Portfolio',
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.img {
+  width: 10rem;
+}
+</style>
