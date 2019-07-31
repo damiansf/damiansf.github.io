@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Portfolio/>
+    <Portfolio prompt="DamianSandhu-Franceschi@Developer:~$ "/>
   </div>
 </template>
 
@@ -17,9 +17,12 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #888888;
+  margin-left:auto;
+	margin-right:auto;
+  font-size:14px;
 }
 </style>
