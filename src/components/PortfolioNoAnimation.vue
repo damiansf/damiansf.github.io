@@ -5,7 +5,7 @@
     <br><span>Hello, my name is Damian Sandhu-Franceschi. I am a Computer Science student at the University of Guelph, welcome to my portfolio!</span>
     <h2>Live Projects</h2>
     <ul>
-      <li><a href=https://github.com/damiansf/IgnoreWebadvisorsCookieLimits>Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisors (uofgs course selection system) maximum cookies error. <a href=https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc>Available in the chrome webstore</a></li>
+      <li><a href=https://github.com/damiansf/IgnoreWebadvisorsCookieLimits>Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisors (University of Guelphs course selection system) maximum cookies error. <a href=https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc>Available in the chrome webstore</a></li>
       <li><a href=https://github.com/damiansf/XboxGamertagGenerator>Xbox Gamertag Generator</a> A fun React app that xboxifys your gamertag <a href=https://damiansf.github.io/XboxGamertagGenerator/>Available online</a></li>
       <li><a href=https://github.com/damiansf/todolist>Todos</a> A basic Vue.js app for creating and completing todos <a href=https://damiansf.github.io/todolist/>Available online</a></li>
       <li><a href=https://github.com/damiansf/HowMuchDoIOweYou>How Much Do I Owe You?</a> A React app that allows you to track debts within your friend group. <a href=https://damiansf.github.io/HowMuchDoIOweYou/>Available online</a></li>
@@ -18,6 +18,7 @@
       <li><a href=https://github.com/damiansf/ArduinoRadar>Arduino Radar</a> Software for a arduino radar system</li>
       <li><a href=https://github.com/damiansf/spellmyname>Spell My Name</a> Fun little game to see if you can spell my name</li>
       <li><a href=https://github.com/damiansf/LunchPicker>Lunch Picker</a> Randomly selects a place to eat lunch based off data in a JSON file</li>
+      <li><a href=https://github.com/damiansf/Bot-Template>Bot Template</a> A template that can be used to create Slack bots using Botkit. <a href=https://medium.com/@damiansandhu11/building-custom-slack-bots-using-botkit-825fb4a6f3c7> A tutorial for how to use it can be found on Medium </a></li>
     </ul>
   </div>
 </template>
