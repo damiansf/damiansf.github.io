@@ -1,8 +1,21 @@
 <template>
   <div id="app">
-    <Portfolio v-if="!skipAnimation" prompt="DamianSandhu-Franceschi@Developer:~$ " />
-    <PortfolioNoAnimation v-if="skipAnimation" prompt="DamianSandhu-Franceschi@Developer:~$ " />
-    <div class="skip-text" v-on:click="skipAnimation = true" v-if="!skipAnimation">Skip Animation</div>
+    <Portfolio
+      v-if="!skipAnimation"
+      prompt="DamianSandhu-Franceschi@Developer:~$ "
+    />
+    <PortfolioNoAnimation
+      v-if="skipAnimation"
+      prompt="DamianSandhu-Franceschi@Developer:~$ "
+    />
+    <div
+      class="skip-text"
+      v-on:click="skipAnimation = true"
+      v-if="!skipAnimation"
+      :id="skipAnimation"
+    >
+      Skip Animation
+    </div>
   </div>
 </template>
 
@@ -20,6 +33,11 @@ export default {
     return {
       skipAnimation: false
     };
+  },
+  methods: {
+    skipAnim: function() {
+      this.skipAnimation = true;
+    }
   }
 };
 </script>

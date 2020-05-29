@@ -1,8 +1,10 @@
 <template>
   <div>
     <span class="console-text">{{prompt}}</span>
-    <span>cat welcome.txt && cat projects.txt</span>
-    <br><span>Hello, my name is Damian Sandhu-Franceschi. I am a Computer Science student at the University of Guelph, welcome to my portfolio!</span>
+    <span>./runPortfolioScript; ./runMagicalScriptThatMakesLinksMoreReadableInTerminal</span>
+    <br><span>Executing generic introduction generation...</span>
+    <h3>Hello, my name is Damian Sandhu-Franceschi. I am a Computer Science student at the University of Guelph, welcome to my portfolio!</h3>
+    <span>Extracting projects from users GitHub and attempting to display them somewhat nicely...</span>
     <h2>Live Projects</h2>
     <ul>
       <li><a href=https://github.com/damiansf/IgnoreWebadvisorsCookieLimits>Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisors (University of Guelphs course selection system) maximum cookies error. <a href=https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc>Available in the chrome webstore</a></li>
@@ -19,7 +21,14 @@
       <li><a href=https://github.com/damiansf/spellmyname>Spell My Name</a> Fun little game to see if you can spell my name</li>
       <li><a href=https://github.com/damiansf/LunchPicker>Lunch Picker</a> Randomly selects a place to eat lunch based off data in a JSON file</li>
       <li><a href=https://github.com/damiansf/Bot-Template>Bot Template</a> A template that can be used to create Slack bots using Botkit. <a href=https://medium.com/@damiansandhu11/building-custom-slack-bots-using-botkit-825fb4a6f3c7> A tutorial for how to use it can be found on Medium </a></li>
+      <li><a href=https://github.com/damiansf/BuildingOccupancyPrototype>Building Occupancy Prototype</a> Prototype application for using building light sensor data to get live and historic utilization data, created while at the University of Guelph</li>
+      <li><a href=https://github.com/damiansf/CIS4030Project>CIS4030Project</a> Prototype application for a resume and business card sharing, NFC based Android app, Created with a team of 4 while at the University of Guelph</li>
+      <li><a href=https://github.com/damiansf/NFCPrototype>NFC Prototype</a> Prototype application that was used to explore Android NFC capabilities for the above project</li>
+      <li><a href=https://github.com/damiansf/Social-Prototype>Social Prototype</a> Prototype application for a contact information/social media sharing app that aims to conjugate all of a persons information into one central system for easy sharing</li>
     </ul>
+    <span>Executing magical script to make GitHub links printed to terminal more readable...</span>
+    <br><span>Links enhanced!</span>
+    <br><span>Entering an infinite loop that does nothing for fun!!</span>
   </div>
 </template>
 
@@ -38,5 +47,11 @@ export default {
 }
 li h2 span {
   color: #888888;
+}
+a {
+  color: #00CCFF;
+}
+a:visited {
+  color: #7c26cb;
 }
 </style>
