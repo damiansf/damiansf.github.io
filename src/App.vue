@@ -58,5 +58,6 @@ export default {
   position: absolute;
   bottom: 0;
   right: 0;
+  font-size: 2rem;
 }
 </style>

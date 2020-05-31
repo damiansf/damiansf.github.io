@@ -25,6 +25,7 @@
       <li><a href=https://github.com/damiansf/CIS4030Project>CIS4030Project</a> Prototype application for a resume and business card sharing, NFC based Android app, Created with a team of 4 while at the University of Guelph</li>
       <li><a href=https://github.com/damiansf/NFCPrototype>NFC Prototype</a> Prototype application that was used to explore Android NFC capabilities for the above project</li>
       <li><a href=https://github.com/damiansf/Social-Prototype>Social Prototype</a> Prototype application for a contact information/social media sharing app that aims to conjugate all of a persons information into one central system for easy sharing</li>
+      <li><a href=https://github.com/damiansf/UniversityCourseAvailabilityChecker>University Course Availability Checker</a> Simple messy python script that requests course information from the University of Guelphs course selection system on a specified interval. The script uses this information to inform the user if specified courses have openings. The goal of this script is to automate the process of searching for open courses</li>
     </ul>
     <span>Executing magical script to make GitHub links printed to terminal more readable...</span>
     <br><span>Links enhanced!</span>
