@@ -7,10 +7,11 @@
     <span>Extracting projects from users GitHub and attempting to display them somewhat nicely...</span>
     <h2>Live Projects</h2>
     <ul>
-      <li><a href=https://github.com/damiansf/IgnoreWebadvisorsCookieLimits>Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisors (University of Guelphs course selection system) maximum cookies error. <a href=https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc>Available in the chrome webstore</a></li>
+      <li><a href=https://github.com/damiansf/IgnoreWebadvisorsCookieLimits>Ignore Webadvisor Cookie Limits</a> Small chrome extension that allows you to avoid Webadvisors (University of Guelphs course selection system) maximum cookies error. <a href=https://chrome.google.com/webstore/detail/ignore-webadvisor-cookie/homcfondbbpefkaahogpdlhpnedngpdc>Available in the chrome web store</a></li>
       <li><a href=https://github.com/damiansf/XboxGamertagGenerator>Xbox Gamertag Generator</a> A fun React app that xboxifys your gamertag <a href=https://damiansf.github.io/XboxGamertagGenerator/>Available online</a></li>
       <li><a href=https://github.com/damiansf/todolist>Todos</a> A basic Vue.js app for creating and completing todos <a href=https://damiansf.github.io/todolist/>Available online</a></li>
       <li><a href=https://github.com/damiansf/HowMuchDoIOweYou>How Much Do I Owe You?</a> A React app that allows you to track debts within your friend group. <a href=https://damiansf.github.io/HowMuchDoIOweYou/>Available online</a></li>
+      <li><a href=https://github.com/damiansf/Uglify>Uglify</a> A fun and super simple chrome extension that gives the browser a interesting makeover and contains a random odds surprise. <a href=https://chrome.google.com/webstore/category/extensions>Coming soon to the chrome web store</a></li>
     </ul>
     <h2>Other Projects</h2>
     <ul>
