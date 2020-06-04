@@ -55,7 +55,7 @@
     <vue-typed-js
       :typeSpeed="0"
       :showCursor="false"
-      :startDelay="37000"
+      :startDelay="35610"
       :strings="[
         'Executing magical script to make GitHub links printed to terminal more readable...'
       ]"
